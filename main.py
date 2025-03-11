@@ -1,9 +1,9 @@
 # flake8: noqa: F401
 
-from fila_normal import fila_normal
+from fila_normal import FilaNormal
 from fila_prioritaria import FilaPrioritaria
 
-fila_teste = fila_normal()
+fila_teste = FilaNormal()
 fila_teste.atualiza_fila()
 fila_teste.atualiza_fila()
 fila_teste.atualiza_fila()
